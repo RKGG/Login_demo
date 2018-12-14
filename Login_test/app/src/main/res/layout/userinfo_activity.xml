@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/layout_border"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/layout_border"
+            android:src="@drawable/people_fill" />
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="人员："
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/text_name"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:gravity="center|left"
+                    android:layout_width="240dp"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:background="@color/Spaire"/>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="状态："
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/text_condition"
+                    android:textSize="14sp"
+                    android:textColor="@color/green"
+                    android:gravity="center|left"
+                    android:layout_width="240dp"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/layout_border">
+
+    </LinearLayout>
+</LinearLayout>

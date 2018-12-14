@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:focusableInTouchMode="true" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="用户注册"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:background="@drawable/layout_border"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="注册账号："
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+            <EditText
+                android:id="@+id/edit_register"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="@color/btn" />
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="输入密码："
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/edit_setpassword"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:password="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="@color/btn" />
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="确认密码："
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/edit_resetpassword"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:password="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/layout_border"
+            android:text="确定"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_cancle"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="180dp"
+            android:background="@drawable/layout_border"
+            android:text="取消"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>
